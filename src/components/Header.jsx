@@ -2,7 +2,7 @@ export default function Header() {
 
   return (
   <div className="bg-gray1">
-    <div className="flex justify-between container py-3.5 m-auto px-4">
+    <div className="flex justify-between container py-3.5 mx-auto px-4">
         <p className="text-sm text-gray2">Welcome to worldwide Megamart!</p>
         <svg className="md:hidden size-[18px] stroke-main-blue fill-transparent">
           <use href="./sprite.svg#icon-burger1"></use>
