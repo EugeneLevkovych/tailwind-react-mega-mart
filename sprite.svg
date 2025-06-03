@@ -17,6 +17,10 @@
 <path d="M5.333 16c0 0.736-0.597 1.333-1.333 1.333s-1.333-0.597-1.333-1.333c0-0.736 0.597-1.333 1.333-1.333s1.333 0.597 1.333 1.333z"></path>
 <path d="M5.333 25.333c0 0.736-0.597 1.333-1.333 1.333s-1.333-0.597-1.333-1.333c0-0.736 0.597-1.333 1.333-1.333s1.333 0.597 1.333 1.333z"></path>
 </symbol>
+<symbol id="icon-user" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M22.333 10.667c0 3.498-2.836 6.333-6.333 6.333s-6.333-2.836-6.333-6.333c0-3.498 2.836-6.333 6.333-6.333s6.333 2.836 6.333 6.333z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 28c0 0 0-1.667 0-3.333s2.999-3.333 8-3.333c5.001 0 8 1.667 8 3.333 0 2.5 0 3.333 0 3.333"></path>
+</symbol>
 <symbol id="icon-buy" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M9.896 26.427c0.563 0 1.020 0.457 1.020 1.020s-0.457 1.019-1.020 1.019c-0.563 0-1.019-0.456-1.019-1.019s0.456-1.020 1.019-1.020z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24.9 26.427c0.563 0 1.020 0.457 1.020 1.020s-0.457 1.019-1.020 1.019c-0.563 0-1.020-0.456-1.020-1.019s0.457-1.020 1.020-1.020z"></path>
