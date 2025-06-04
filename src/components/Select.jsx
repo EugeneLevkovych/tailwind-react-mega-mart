@@ -32,7 +32,7 @@ export default function Select({title, options}) {
     <div>
       <div ref={selectRef} className="relative">
         <div 
-          className="relative border-none rounded-3xl outline-none bg-blue1 font-medium text-sm leading-[1.3] text-gray4 whitespace-nowrap py-2 pl-3.5 pr-[2.4rem] cursor-pointer hover:bg-main-blue hover:text-white1 transition-colors group"
+          className="relative border-none rounded-3xl outline-none bg-blue1 font-medium text-sm leading-[1.3] text-gray4 whitespace-nowrap py-2 pl-3.5 pr-[2rem] cursor-pointer hover:bg-main-blue hover:text-white1 transition-colors group"
           onClick={() => setIsOpen(!isOpen)}
         >
           {selected || title}
@@ -43,7 +43,7 @@ export default function Select({title, options}) {
         </div>
         
         {isOpen && (
-          <div className="absolute top-full left-0 bg-blue1 border-none mt-1 min-w-full z-10">
+          <div className="absolute top-full left-0 bg-blue1 border-none mt-1 min-w-full z-10 overflow: visible">
             {options.map((option) => (
               <div 
                 key={option}
