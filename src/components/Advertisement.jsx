@@ -1,3 +1,5 @@
+import watch from "../assets/smart-wearable.png";
+
 export default function Advertisement() {
 
   return (
@@ -8,7 +10,7 @@ export default function Advertisement() {
           <p className="font-semibold text-[1.2rem] lg:text-[1.9rem] leading-none text-white1">UP to 80% OFF</p> 
         </div>
         <div className="w-[10rem] lg:w-[16.75rem] h-[10rem] lg:h-[16.88rem] my-5 lg:mr-5 xl:mr-[7.75rem]">
-          <img  src="./src/assets/smart-wearable.png" alt="Watch" />
+          <img src={watch} alt="Watch" />
         </div>
     </div>
   )}
