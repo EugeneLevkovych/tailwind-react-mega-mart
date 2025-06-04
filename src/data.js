@@ -1,15 +1,3 @@
-export const CATEGORIES_LIST = [
-    "Groceries",
-    "Premium Fruits",
-    "Home & Kitchen",
-    "Fashion",
-    "Electronics",
-    "Beauty",
-    "Home Improvement",
-    "Sports",
-    "Toys & Luggage",  
-  ];
- 
   export const CATEGORY_GROCERIES = ["Milk", "Bread", "Eggs", "Rice", "Cooking Oil"];
 
   export const CATEGORY_PREMIUM_GRUITS = ["Dragon Fruit", "Blueberries", "Cherries", "Rambutan", "Golden Kiwi"];
@@ -27,5 +15,4 @@ export const CATEGORIES_LIST = [
   export const CATEGORY_SPORTS = ["Football", "Yoga Mat", "Tennis Racket", "Dumbbells", "Running Shoes"];
   
   export const CATEGORY_TOYS_AND_LUGGAGE = ["Teddy Bear", "LEGO Set", "Backpack", "Spinner", "Toy Car"];
-
 
