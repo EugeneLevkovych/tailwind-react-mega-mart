@@ -2,7 +2,7 @@ import ProductsBar from "./components/ProductsBar";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Advertisement from "./components/Advertisement";
-import Smartphones from "./components/Smartphones";
+import SmartphonesList from "./components/SmartphonesList";
 
 export default function App() {
 
@@ -12,7 +12,7 @@ export default function App() {
       <Hero />
       <ProductsBar />
       <Advertisement />
-      <Smartphones />
+      <SmartphonesList />
     </div>
   )
 }

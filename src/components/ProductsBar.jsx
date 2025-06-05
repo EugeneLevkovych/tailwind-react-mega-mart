@@ -6,7 +6,7 @@ import { CATEGORY_GROCERIES,
   CATEGORY_BEAUTY,
   CATEGORY_HOME_IMPROVEMENT,
   CATEGORY_SPORTS, 
-  CATEGORY_TOYS_AND_LUGGAGE } from "../data";
+  CATEGORY_TOYS_AND_LUGGAGE } from "../data/dataProductsBar.js";
 
 import Select from "./Select.jsx";
 
