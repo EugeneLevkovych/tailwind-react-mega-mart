@@ -29,7 +29,6 @@ export default function Select({title, options}) {
   });
 
   return (
-    <div>
       <div ref={selectRef} className="relative">
         <div 
           className="relative border-none rounded-3xl outline-none bg-blue1 font-medium text-sm leading-[1.3] text-gray4 whitespace-nowrap py-2 pl-3.5 pr-[2rem] cursor-pointer hover:bg-main-blue hover:text-white1 transition-colors group"
@@ -58,7 +57,6 @@ export default function Select({title, options}) {
             ))}
           </div>
         )}
-      </div>
-    </div>
+      </div> 
   );
 }

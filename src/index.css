@@ -19,3 +19,13 @@
         width: 1px;
         background-color: #666; 
 }
+
+@utility my-underline {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -16px;
+        left: 0; 
+        background-color: #008ECC;
+}

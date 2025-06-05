@@ -1,5 +1,0 @@
-export default function Smartphones() {
-
-  return (
-    <div></div>
-  )}
