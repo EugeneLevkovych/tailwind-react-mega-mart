@@ -2,7 +2,8 @@ export default function SmartphonesCard({smartphoneObj}) {
     const price = Number(smartphoneObj.price.replace('$', ''));
     const prevPrice = Number(smartphoneObj.prevPrice.replace('$', ''));
   return (
-    <li className="max-w-[14.3rem] w-full h-[18.5rem] border-[1px] border-solid border-gray3 rounded-2xl overflow-hidden">
+    <li className="relative max-w-[14.3rem] w-full h-[18.5rem] border-[1px] border-solid border-gray3 rounded-2xl overflow-hidden">
+        <div className="absolute top-0 right-0 flex items-center w-[3.18rem] h-[3.31rem] font-semibold text-sm text-white1 uppercase bg-main-blue rounded-bl-2xl pl-2">56% Off</div>
         <div className="flex justify-center h-[11.8rem] bg-gray1">
           <img className="h-[11.8rem] w-[8.8rem] object-scale-down" src={smartphoneObj.photoName} />
         </div>
@@ -12,7 +13,7 @@ export default function SmartphonesCard({smartphoneObj}) {
            <p>{smartphoneObj.price}</p>
            <p>{smartphoneObj.prevPrice}</p>
            </div>
-        <p className="text-green1">Save - $ {prevPrice - price}</p>
+        <p className="font-semibold text-green1 leading-[1.1]">Save - $ {prevPrice - price}</p>
         </div>
     </li>
   )}
