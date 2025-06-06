@@ -35,9 +35,7 @@ body {
         background-color: #008ECC;
 }
 
-@utility custom-width {
-  width: calc((100% - 24px) / 2);
-}
+
 
      @font-face {
     font-family: 'HK Grotesk Regular';

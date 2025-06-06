@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Advertisement from "./components/Advertisement";
 import SmartphonesList from "./components/SmartphonesList";
+import Footer from "./components/Footer";
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
       <ProductsBar />
       <Advertisement />
       <SmartphonesList />
+      <Footer />
     </div>
   )
 }
