@@ -11,7 +11,7 @@ export default function Footer() {
        <div className="absolute -top-30 -right-40 size-100 border border-blue1 rounded-full"
         style={{
          backgroundImage: "linear-gradient(to bottom, rgba(0, 142, 204, 0.8), rgba(0, 142, 204, 0.8)), url('./src/assets/ellipse.png')",
-         backgroundSize: '373px',
+         backgroundSize: '371px',
          backgroundPosition: 'center',
          backgroundRepeat: 'no-repeat',
        }} />
