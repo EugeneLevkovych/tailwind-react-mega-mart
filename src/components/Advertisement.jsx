@@ -1,4 +1,5 @@
 import watch1 from "../assets/smart-wearable.png";
+import ellipse from "../assets/ellipse.png";
 
 export default function Advertisement() {
 
@@ -6,7 +7,8 @@ export default function Advertisement() {
     <div className="container relative flex justify-between border-0 rounded-2xl bg-blue2 mb-[7.5rem] mx-auto px-4 overflow-hidden">
          <div className="absolute -top-75 -right-2 size-116.5 border border-blue1 rounded-full"
         style={{
-         backgroundImage: "linear-gradient(to bottom, rgba(33, 40, 68, 0.9), rgba(33, 40, 68, 0.9)), url('./src/assets/ellipse.png')",
+        backgroundImage: `linear-gradient(to bottom, rgba(33, 40, 68, 0.9), rgba(33, 40, 68, 0.9)), url(${ellipse})`,
+        //  backgroundImage: "linear-gradient(to bottom, rgba(33, 40, 68, 0.9), rgba(33, 40, 68, 0.9)), url('./src/assets/ellipse.png')",
          backgroundSize: '426px',
          backgroundPosition: 'center',
          backgroundRepeat: 'no-repeat',
