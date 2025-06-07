@@ -2,15 +2,16 @@ import googlePlay from "../assets/google-play.png";
 import appStore from "../assets/app-store.png";
 import { COLUMN_1, COLUMN_2 } from "../data/dataColumn";
 import Column from "./Column.jsx";
+import ellipse from "../assets/ellipse.png";
 
 export default function Footer() {
 
    return (
 
   <div className="relative bg-main-blue overflow-hidden"> 
-       <div className="absolute -top-30 -right-40 size-100 border border-blue1 rounded-full"
+       <div className="absolute -top-30 -right-40 size-100 border border-blue3 rounded-full"
         style={{
-         backgroundImage: "linear-gradient(to bottom, rgba(0, 142, 204, 0.8), rgba(0, 142, 204, 0.8)), url('./src/assets/ellipse.png')",
+         backgroundImage: `linear-gradient(to bottom, rgba(0, 142, 204, 0.8), rgba(0, 142, 204, 0.8)), url(${ellipse})`,
          backgroundSize: '371px',
          backgroundPosition: 'center',
          backgroundRepeat: 'no-repeat',
@@ -53,7 +54,7 @@ export default function Footer() {
         <Column name="Customer Services" options={COLUMN_2} />
       </div>
     </div>
-    <p className="text-center text-xl leading-none text-white pt-5">© 2022 All rights reserved. Reliance Retail Ltd.</p>
+    <p className="text-center text-xl leading-none text-white border-t border-blue3 pt-5">© 2022 All rights reserved. Reliance Retail Ltd.</p>
   </div>
 </div>
 )
