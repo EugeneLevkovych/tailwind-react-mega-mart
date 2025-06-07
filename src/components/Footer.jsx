@@ -1,13 +1,15 @@
 import googlePlay from "../assets/google-play.png";
 import appStore from "../assets/app-store.png";
+import { COLUMN_1, COLUMN_2 } from "../data/dataColumn";
+import Column from "./Column.jsx";
 
 export default function Footer() {
 
    return (
 <div className="bg-main-blue">
-    <div className="container pt-20 pb-7.5 mx-auto px-4">
+    <div className="container flex justify-between pt-20 mx-auto px-4">
 
-      
+      <div>
         <svg className="w-54 h-11 fill-white mb-8.5">
           <use href="./sprite.svg#icon-MegaMart"></use>
         </svg>
@@ -35,7 +37,12 @@ export default function Footer() {
             <img className="w-47.5 h-14" src={googlePlay} alt="Google Play" />
           </a>
         </div>
+      </div>
 
+      <div className="flex gap-20">
+        <Column name="Most Popular Categories" options={COLUMN_1} />
+        <Column name="Customer Services" options={COLUMN_2} />
+      </div>
 
     </div>
 </div>

@@ -35,6 +35,16 @@ body {
         background-color: #008ECC;
 }
 
+@utility my-underline2 {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0px;
+        left: 0; 
+        background-color: #fff;
+}
+
 
 
      @font-face {
