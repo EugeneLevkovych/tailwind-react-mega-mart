@@ -45,7 +45,11 @@ body {
         background-color: #fff;
 }
 
-
+@utility myEllipse {
+  background-image: url('/assets/Kosiv-bg.jpg');
+  background-size: cover;
+  background-position: center; 
+}
 
      @font-face {
     font-family: 'HK Grotesk Regular';

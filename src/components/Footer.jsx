@@ -6,14 +6,23 @@ import Column from "./Column.jsx";
 export default function Footer() {
 
    return (
-<div className="bg-main-blue">
-    <div className="container flex justify-between pt-20 mx-auto px-4">
 
+  <div className="relative bg-main-blue overflow-hidden"> 
+       <div className="absolute -top-30 -right-40 size-100 border border-blue1 rounded-full"
+        style={{
+         backgroundImage: "linear-gradient(to bottom, rgba(0, 142, 204, 0.8), rgba(0, 142, 204, 0.8)), url('./src/assets/ellipse.png')",
+         backgroundSize: '373px',
+         backgroundPosition: 'center',
+         backgroundRepeat: 'no-repeat',
+       }} />
+  <div className="container pt-20 pb-7.5 mx-auto px-4">
+
+    <div className="flex justify-between pr-47">  
       <div>
         <svg className="w-54 h-11 fill-white mb-8.5">
           <use href="./sprite.svg#icon-MegaMart"></use>
         </svg>
-        <p className="font-bold text-xl leading-none text-white mb-5">Coctact Us</p>
+        <p className="font-bold text-xl leading-none text-white mb-5">Contact Us</p>
         <div className="flex gap-3 w-41 h-10.5 mb-5">
           <svg className="size-6 fill-white">
             <use href="./sprite.svg#icon-whats-app"></use>
@@ -31,7 +40,7 @@ export default function Footer() {
         <p className="font-bold text-xl leading-none text-white mb-5">Download App</p>
         <div className="flex gap-5 mb-21">
           <a href="https://www.apple.com/app-store/">
-            <img className="w-41.5 h-14" src={appStore} alt="Google Play" />
+            <img className="w-41.5 h-14" src={appStore} alt="App Store" />
           </a> 
           <a href="https://play.google.com/store/games?pli=1">
             <img className="w-47.5 h-14" src={googlePlay} alt="Google Play" />
@@ -43,8 +52,9 @@ export default function Footer() {
         <Column name="Most Popular Categories" options={COLUMN_1} />
         <Column name="Customer Services" options={COLUMN_2} />
       </div>
-
     </div>
+    <p className="text-center text-xl leading-none text-white pt-5">© 2022 All rights reserved. Reliance Retail Ltd.</p>
+  </div>
 </div>
 )
 }

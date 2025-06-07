@@ -13,7 +13,7 @@ import Select from "./Select.jsx";
 export default function ProductsBar() {
 
   return (
-    <div className="border-y border-solid border-gray3">
+    <div className="border-y border-solid border-gray3 mb-4">
         <div className="container flex flex-wrap gap-3.5 py-4 mx-auto px-4">
           <Select title="Groceries" options={CATEGORY_GROCERIES} />
           <Select title="Premium Fruits" options={CATEGORY_PREMIUM_GRUITS} />
