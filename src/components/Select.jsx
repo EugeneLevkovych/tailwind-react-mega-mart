@@ -42,7 +42,7 @@ export default function Select({title, options}) {
         </div>
         
         {isOpen && (
-          <div className="absolute top-full left-0 bg-blue1 border-none mt-1 min-w-full z-10 overflow: visible">
+          <div className="absolute top-full left-0 bg-blue1 border-none mt-1 min-w-full z-100 overflow: visible">
             {options.map((option) => (
               <div 
                 key={option}

@@ -1,5 +1,4 @@
 import watch1 from "../assets/smart-wearable.png";
-import ellipse from "../assets/ellipse.png";
 
 export default function Advertisement() {
 

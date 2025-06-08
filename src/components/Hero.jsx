@@ -9,7 +9,7 @@ export default function Hero() {
       </svg>
     </div>
     <a href="./index.html">
-      <svg className="w-[8.6rem] h-7 fill-main-blue">
+      <svg className="w-[8.6rem] h-7 fill-main-blue mr-2">
         <use href="./sprite.svg#icon-MegaMart"></use>
       </svg>
     </a>

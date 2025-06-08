@@ -18,7 +18,7 @@ export default function Footer() {
        }} />
   <div className="container pt-20 pb-7.5 mx-auto px-4">
 
-    <div className="flex justify-between pr-47">  
+    <div className="flex flex-wrap justify-center lg:flex-nowrap lg:justify-between lg:pr-10 xl:pr-47">  
       <div>
         <svg className="w-54 h-11 fill-white mb-8.5">
           <use href="./sprite.svg#icon-MegaMart"></use>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <p className="font-bold text-xl leading-none text-white mb-5">Download App</p>
-        <div className="flex gap-5 mb-21">
+        <div className="flex flex-wrap gap-5 mb-21">
           <a href="https://www.apple.com/app-store/">
             <img className="w-41.5 h-14" src={appStore} alt="App Store" />
           </a> 
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex lg:gap-10 xl:gap-20 z-10">
         <Column name="Most Popular Categories" options={COLUMN_1} />
         <Column name="Customer Services" options={COLUMN_2} />
       </div>
