@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Advertisement from "./components/Advertisement";
 import SmartphonesList from "./components/SmartphonesList";
 import Footer from "./components/Footer";
+import TopCatecoriesList from "./components/TopCategoriesList";
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
       <ProductsBar />
       <Advertisement />
       <SmartphonesList />
+      <TopCatecoriesList />
       <Footer />
     </div>
   )
