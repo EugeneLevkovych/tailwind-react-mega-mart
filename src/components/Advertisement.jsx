@@ -5,20 +5,22 @@ export default function Advertisement() {
 
   return (
     <div className="container relative flex justify-between border-0 rounded-2xl bg-blue2 mb-[7.5rem] mx-auto px-4 overflow-hidden">
-         <div className="absolute -top-75 -right-2 size-116.5 border border-blue1 rounded-full"
+         <div className="absolute -top-75 -right-2 size-116.5 border-2 rounded-full"
         style={{
          backgroundImage: `linear-gradient(to bottom, rgba(33, 40, 68, 0.9), rgba(33, 40, 68, 0.9)), url(${ellipse})`,
          backgroundSize: '426px',
          backgroundPosition: 'center',
          backgroundRepeat: 'no-repeat',
+         borderColor: 'var(--color-decor-blue)',
           }} />
 
-             <div className="absolute -bottom-20 right-60 size-37 border border-blue1 rounded-full"
+             <div className="absolute -bottom-20 right-60 size-37 border-2 rounded-full"
         style={{
          backgroundImage: `linear-gradient(to bottom, rgba(33, 40, 68, 0.9), rgba(33, 40, 68, 0.9)), url(${ellipse})`,
          backgroundSize: '118px',
          backgroundPosition: 'center',
          backgroundRepeat: 'no-repeat',
+         borderColor: 'var(--color-decor-blue)',
           }} />
          
 

@@ -9,7 +9,8 @@
   --color-peach1: #ffd1b0;   
   --color-peach2: #ffecdf;
   --color-text-white: #fff; 
-  --color-text-dark: #222; 
+  --color-text-dark: #222;
+  --color-decor-blue: #2C3454; 
 }
 
 body {
