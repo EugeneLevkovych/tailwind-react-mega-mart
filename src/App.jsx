@@ -5,6 +5,7 @@ import Advertisement from "./components/Advertisement";
 import SmartphonesList from "./components/SmartphonesList";
 import Footer from "./components/Footer";
 import TopCatecoriesList from "./components/TopCategoriesList";
+import EssentialsList from "./components/EssentialsList";
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
       <Advertisement />
       <SmartphonesList />
       <TopCatecoriesList />
+      <EssentialsList />
       <Footer />
     </div>
   )
