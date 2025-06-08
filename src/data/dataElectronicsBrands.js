@@ -12,6 +12,9 @@ export const ELECTRONICS_BRANDS = [
         photoBrandsName: electronicsBrandsImg1,
         photoName: brands1,
         discont: "UP to 80% OFF",
+        backColor: "gray6",
+        decorColor: "gray5",
+        textColor: "text-white",
     },
         {
         name: "Realme",
@@ -19,6 +22,9 @@ export const ELECTRONICS_BRANDS = [
         photoBrandsName: electronicsBrandsImg2,
         photoName: brands2,
         discont: "UP to 80% OFF",
+        backColor: "yellow1",
+        decorColor: "yellow2",
+        textColor: "text-dark",
     },
          {
         name: "Realme",
@@ -26,5 +32,8 @@ export const ELECTRONICS_BRANDS = [
         photoBrandsName: electronicsBrandsImg3,
         photoName: brands3,
         discont: "UP to 80% OFF",
+        backColor: "peach2",
+        decorColor: "peach1",
+        textColor: "text-dark",
     },
 ]
