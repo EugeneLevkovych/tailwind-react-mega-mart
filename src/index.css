@@ -10,7 +10,8 @@
   --color-peach2: #ffecdf;
   --color-text-white: #fff; 
   --color-text-dark: #222;
-  --color-decor-blue: #2C3454; 
+  --color-decor-blue: #2C3454;
+  --color-border-decor-blue: #3c466b; 
 }
 
 body {
