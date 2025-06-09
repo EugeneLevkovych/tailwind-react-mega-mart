@@ -1,6 +1,6 @@
 import watch1 from "../assets/smart-wearable.png";
-import watch2 from "../assets/mi-band-pro-7.webp";
-import watch3 from "../assets/smartband-mi-band-9.webp";
+import watch2 from "../assets/mi-band-pro-7.png";
+import watch3 from "../assets/smartband-mi-band-9.png";
 
 export const ADVERTISEMENT = [
      {
@@ -8,26 +8,26 @@ export const ADVERTISEMENT = [
             id: 1,
             photoName: watch1,
             discont: "UP to 80% OFF",
-            backColor: "gray6",
-            decorColor: "gray5",
-            textColor: "text-white",
+            backColor: "var(--color-decor-blue)",
+            decorColor: "var(--color-border-decor-blue)",
+            textColor: "var(--color-white1)",
         },
             {
             name: "Mi Band Pro 7",
             id: 2,
-            photoName: watch1,
+            photoName: watch2,
             discont: "UP to 60% OFF",
-            backColor: "yellow1",
-            decorColor: "yellow2",
+            backColor: "var(--color-yellow2)",
+            decorColor: "var(--color-yellow1)",
             textColor: "text-dark",
         },
              {
             name: "Smartband Mi Band 9",
             id: 3,
-            photoName: watch1,
+            photoName: watch3,
             discont: "UP to 50% OFF",
-            backColor: "peach2",
-            decorColor: "peach1",
+            backColor: "var(--color-peach2)",
+            decorColor: "var(--color-peach1)",
             textColor: "text-dark",
         },
 ]
