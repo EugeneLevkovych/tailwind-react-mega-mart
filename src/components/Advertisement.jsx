@@ -12,7 +12,7 @@ export const Advertisement = ({ slides }) => {
     '--swiper-pagination-color': 'var(--color-white)',
     '--swiper-pagination-bullet-inactive-color': 'var(--color-white)',
     '--swiper-pagination-bullet-size': '10px',
-    '--swiper-pagination-bullet-horizontal-gap': '4px'
+    '--swiper-pagination-bullet-horizontal-gap': '4px' 
   };
 
 

@@ -17,6 +17,14 @@ body {
   font-family: "HK Grotesk", sans-serif;
 }
 
+.swiper-pagination {
+  left: 10rem !important;
+  right: auto !important;
+  bottom: 2rem !important;
+  text-align: left !important;
+  width: auto !important;
+}
+
 
 @theme {
     --color-main-blue: #008ECC;
@@ -104,3 +112,4 @@ body {
     font-weight: normal;
     src: local('HK Grotesk Bold'), url('/fonts/HKGrotesk-Bold.woff') format('woff');
     }
+
