@@ -8,7 +8,7 @@ import EssentialsList from "./components/EssentialsList";
 import ElectronicsBrandsList from "./components/ElectronicsBrandsList";
 import { ADVERTISEMENT } from "./data/dataAdvertisement";
 
-import { Slyder } from "./components/Slyder";
+import { Advertisement } from "./components/Advertisement";
 
 export default function App() {
 
@@ -17,7 +17,7 @@ export default function App() {
       <Header />
       <Hero />
       <ProductsBar />
-      <Slyder slides={ADVERTISEMENT} />
+      <Advertisement slides={ADVERTISEMENT} />
       <SmartphonesList />
       <TopCatecoriesList />
       <ElectronicsBrandsList />

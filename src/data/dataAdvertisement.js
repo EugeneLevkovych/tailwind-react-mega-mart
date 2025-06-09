@@ -8,8 +8,8 @@ export const ADVERTISEMENT = [
             id: 1,
             photoName: watch1,
             discont: "UP to 80% OFF",
-            backColor: "var(--color-decor-blue)",
-            decorColor: "var(--color-border-decor-blue)",
+            backColor: "var(--color-blue2)",
+            decorColor: "var(--color-blue5)",
             textColor: "var(--color-white1)",
         },
             {
@@ -19,7 +19,7 @@ export const ADVERTISEMENT = [
             discont: "UP to 60% OFF",
             backColor: "var(--color-yellow2)",
             decorColor: "var(--color-yellow1)",
-            textColor: "text-dark",
+            textColor: "var(--color-gray4)",
         },
              {
             name: "Smartband Mi Band 9",
@@ -28,6 +28,6 @@ export const ADVERTISEMENT = [
             discont: "UP to 50% OFF",
             backColor: "var(--color-peach2)",
             decorColor: "var(--color-peach1)",
-            textColor: "text-dark",
+            textColor: "var(--color-gray4)",
         },
 ]

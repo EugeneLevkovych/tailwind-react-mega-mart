@@ -22,7 +22,7 @@ export default function Hero() {
          <use href="./sprite.svg#icon-burger2"></use>
         </svg>
     </div> 
-    <div className="hidden lg:flex items-center gap-1.5 ml-[1.9rem]">
+    <div className="hidden lg:flex items-center gap-1.5 xl:ml-[1.9rem]">
       <svg className="size-6 stroke-main-blue fill-transparent">
         <use href="./sprite.svg#icon-user"></use>
       </svg>

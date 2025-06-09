@@ -1,18 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --color-white1: #fff;
-  --color-gray5: #494949;
-  --color-gray6: #313131;
-  --color-yellow1: #fff3cc;
-  --color-yellow2: #f6de8d;
-  --color-peach1: #ffd1b0;  
-  --color-peach2: #ffecdf;
-  --color-text-white: #fff; 
-  --color-text-dark: #222;
-  --color-decor-blue: #2C3454;
-  --color-border-decor-blue: #3c466b; 
-}
 
 body {
   font-family: "HK Grotesk", sans-serif;
@@ -24,6 +11,7 @@ body {
     --color-blue2: #212844;
     --color-blue3: #05abf3;
     --color-blue4: #008ecc; 
+    --color-blue5: #2C3454;
     --color-gray1: #f5f5f5;
     --color-gray2: #666;
     --color-gray3: #ededed; 
@@ -31,7 +19,11 @@ body {
     --color-gray6: #313131; 
     --color-gray4: #222;
     --color-white1: #fff;
-    --color-green1: #249b3e;    
+    --color-green1: #249b3e;
+    --color-yellow1: #fff3cc;
+    --color-yellow2: #f6de8d;
+    --color-peach1: #ffd1b0;  
+    --color-peach2: #ffecdf;    
 }
 
 @utility my-bar {
