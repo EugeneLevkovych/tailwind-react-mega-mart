@@ -8,15 +8,25 @@ import 'swiper/css/scrollbar';
 
 
 export const Advertisement = ({ slides }) => {
-  return (
-    <div>
+    const paginationStyle = {
+    '--swiper-pagination-color': 'var(--color-white)',
+    '--swiper-pagination-bullet-inactive-color': 'var(--color-white)',
+    '--swiper-pagination-bullet-size': '10px',
+    '--swiper-pagination-bullet-horizontal-gap': '4px'
+  };
 
+
+
+  return (
+<div style={paginationStyle}>
     <Swiper
       modules={[Navigation, Pagination, A11y]}
       spaceBetween={50}
       slidesPerView={1}
       navigation
-      pagination={{ clickable: true }}
+      pagination={{ clickable: true,
+      bulletClass: 'swiper-pagination-bullet',
+       }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
@@ -43,8 +53,6 @@ export const Advertisement = ({ slides }) => {
         </div>
         </SwiperSlide>))}
     </Swiper>
-    
-
 </div>
   );
 };
