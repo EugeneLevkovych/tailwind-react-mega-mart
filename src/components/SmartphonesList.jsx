@@ -4,7 +4,7 @@ import { SMARTPHONES } from "../data/dataSmartphones";
 export default function SmartphonesList() {
 
   return (
-    <div className="container mx-auto px-4 mb-[7.5rem]">
+    <div className="container mx-auto px-4 my-30">
         <div className="flex justify-between border-b-1 border-gray3 pb-4 mb-10">
           <p className="relative font-bold text-2xl leading-[1.25] text-gray2 after:my-underline">Grab the best deal on <span className="text-main-blue">Smartphones</span></p>
           <div className="flex items-center gap-[6px]">
