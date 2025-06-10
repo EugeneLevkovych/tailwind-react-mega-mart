@@ -17,6 +17,8 @@ body {
   font-family: "HK Grotesk", sans-serif;
 }
 
+
+
 .advertisement-pagination .swiper-pagination {
   left: 160px !important;
   width: auto !important;
@@ -33,6 +35,8 @@ body {
   width: 25px !important; 
   transition: width 0.3s; 
 }
+
+
 
 
 @theme {

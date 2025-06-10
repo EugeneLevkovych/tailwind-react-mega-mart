@@ -8,19 +8,19 @@ export default function Header() {
           <use href="./sprite.svg#icon-burger1"></use>
         </svg>
         <div className="hidden md:flex text-gray2">
-           <div className="flex gap-[6px] items-center">
+           <div className="flex gap-[6px] items-center cursor-pointer">
             <svg className="size-[18px] stroke-main-blue fill-transparent">
               <use href="./sprite.svg#icon-location"></use>
             </svg> 
              <p className="relative after:my-bar pr-4">Deliver to <span className="font-semibold">423651</span></p>
            </div>
-           <div className="flex gap-[6px] items-center pl-4">
+           <div className="flex gap-[6px] items-center pl-4 cursor-pointer">
             <svg className="size-[18px] stroke-main-blue fill-transparent">
               <use href="./sprite.svg#icon-delivery-truck"></use>
             </svg>
              <p className="relative after:my-bar pr-4">Track your order</p>
            </div>
-           <div className="flex gap-[6px] items-center pl-4">
+           <div className="flex gap-[6px] items-center pl-4 cursor-pointer">
              <svg className="size-[18px] stroke-main-blue fill-transparent">
               <use href="./sprite.svg#icon-discount"></use>
              </svg>

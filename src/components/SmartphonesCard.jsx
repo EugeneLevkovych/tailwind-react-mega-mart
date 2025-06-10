@@ -3,7 +3,7 @@ export default function SmartphonesCard({smartphoneObj}) {
     const prevPrice = Number(smartphoneObj.prevPrice.replace('$', ''));
 
   return (
-    <li className="relative w-[14.3rem] h-[18.5rem] border-[1px] border-solid border-gray3 rounded-2xl hover:border hover:border-solid hover:border-blue4 hover:shadow-xl overflow-hidden">
+    <li className="relative w-[14.3rem] h-[18.5rem] border-[1px] border-solid border-gray3 rounded-2xl hover:border hover:border-solid hover:border-blue4 hover:shadow-xl overflow-hidden cursor-pointer">
         <div className="absolute top-0 right-0 flex items-center w-[3.18rem] h-[3.31rem] font-semibold text-sm text-white1 uppercase bg-main-blue rounded-bl-2xl pl-2.5">56% Off</div>
         <div className="flex justify-center h-[11.8rem] bg-gray1">
           <img className="h-[11.8rem] w-[8.8rem] object-scale-down" src={smartphoneObj.photoName} />

@@ -1,7 +1,7 @@
 export default function EssentialCard({essentialsObj}) {
 
   return (
-    <li className="w-46.5 h-auto border-none">
+    <li className="w-46.5 h-auto border-none cursor-pointer">
         <div className="size-46.5 flex justify-center items-center bg-gray1 rounded-2xl hover:border hover:border-blue4 hover:shadow-lg mb-5">
           <img src={essentialsObj.photoName} />
         </div>
