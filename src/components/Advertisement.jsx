@@ -1,4 +1,5 @@
 import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { ADVERTISEMENT } from "../data/dataAdvertisement";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-export const Advertisement = ({ slides }) => {
+export const Advertisement = () => {
     const paginationStyle = {
     '--swiper-pagination-color': 'var(--color-white)',
     '--swiper-pagination-bullet-inactive-color': 'var(--color-white)',
@@ -31,7 +32,7 @@ export const Advertisement = ({ slides }) => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-        {slides.map((slide) => ( <SwiperSlide key={slide.id} >
+        {ADVERTISEMENT.map((slide) => ( <SwiperSlide key={slide.id} >
         <div className="container relative flex justify-between border-0 rounded-2xl mx-auto px-4 overflow-hidden" style={{backgroundColor: `${slide.backColor}`}}>
 
                     <div className="absolute -top-75 -right-2 flex justify-center items-center size-116.5 border-2 rounded-full" style={{borderColor: `${slide.decorColor}`}}>

@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import TopCatecoriesList from "./components/TopCategoriesList";
 import EssentialsList from "./components/EssentialsList";
 import ElectronicsBrandsList from "./components/ElectronicsBrandsList";
-import { ADVERTISEMENT } from "./data/dataAdvertisement";
+// import { ADVERTISEMENT } from "./data/dataAdvertisement";
 
 import { Advertisement } from "./components/Advertisement";
 
@@ -17,7 +17,7 @@ export default function App() {
       <Header />
       <Hero />
       <ProductsBar />
-      <Advertisement slides={ADVERTISEMENT} />
+      <Advertisement />
       <SmartphonesList />
       <TopCatecoriesList />
       <ElectronicsBrandsList />
