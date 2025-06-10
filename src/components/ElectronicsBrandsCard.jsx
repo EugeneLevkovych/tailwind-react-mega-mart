@@ -7,7 +7,7 @@ export default function ElectronicsBrandsCard({ electronicsBrandsObj }) {
         </div>
         <div className="p-5">
             <div className="w-25 h-8.5 flex justify-center items-center bg-white rounded-lg mb-5" style={{ backgroundColor: `var(--color-${electronicsBrandsObj.decorColor})`}}>
-              <p className="font-semibold leading-[1.25]" style={{ color: `var(--color-${electronicsBrandsObj.textColor})`}}>{electronicsBrandsObj.name}</p>
+              <p className="font-semibold leading-[1.25] uppercase" style={{ color: `var(--color-${electronicsBrandsObj.textColor})`}}>{electronicsBrandsObj.name}</p>
             </div>
           <div className="mb-5">
             <img src={electronicsBrandsObj.photoBrandsName} />
