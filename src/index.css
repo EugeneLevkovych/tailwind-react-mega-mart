@@ -18,12 +18,20 @@ body {
 }
 
 .swiper-pagination {
-  left: 10rem !important;
-  right: auto !important;
-  bottom: 2rem !important;
   text-align: left !important;
-  width: auto !important;
+  left: 10rem !important; 
+  right: auto !important;
+  bottom: 2rem !important; 
 }
+
+
+.swiper-pagination-bullet-active {
+  border-radius: 5px !important; 
+  width: 25px !important; 
+  transition: width 0.3s; 
+}
+
+
 
 
 @theme {
