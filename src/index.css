@@ -36,7 +36,9 @@ body {
   transition: width 0.3s; 
 }
 
-
+.slide-center .swiper-slide {
+  width: 380px !important;
+}
 
 
 @theme {
