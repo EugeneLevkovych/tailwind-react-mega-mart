@@ -11,12 +11,11 @@ import ElectronicsBrandsCard from "./ElectronicsBrandsCard";
 export default function ElectronicsBrandsList() {
       const paginationStyle = {
     '--swiper-pagination-bullet-size': '10px',
-    '--swiper-pagination-bullet-horizontal-gap': '4px',
-    '--swiper-pagination-bottom': '-7px',
+    '--swiper-pagination-bullet-horizontal-gap': '4px'
   };
 
   return (
-    <div className="container mx-auto px-4 mb-30">
+    <div className="container mx-auto px-4 mb-23">
         <div className="flex justify-between border-b-1 border-gray3 pb-4 mb-10">
           <p className="relative font-bold text-2xl leading-[1.25] text-gray2 after:my-underline">Top <span className="text-main-blue">Electronics Brands</span></p>
           <div className="flex items-center gap-[6px]">

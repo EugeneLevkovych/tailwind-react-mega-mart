@@ -18,18 +18,14 @@ body {
 }
 
 .advertisement-pagination .swiper-pagination {
-  text-align: left !important;
   left: 160px !important;
-  right: auto !important;
   width: auto !important;
 }
 
-.electronic-brands-pagination {
-  padding-bottom: 40px; 
-}
+
 .electronic-brands-pagination .swiper-pagination {
- z-index: 1000 !important;
   position: relative !important;
+  margin-top: 30px !important;
 }
 
 .swiper-pagination-bullet-active {
