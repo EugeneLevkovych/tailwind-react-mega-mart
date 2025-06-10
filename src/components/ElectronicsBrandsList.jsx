@@ -12,7 +12,7 @@ export default function ElectronicsBrandsList() {
       const paginationStyle = {
     '--swiper-pagination-bullet-size': '10px',
     '--swiper-pagination-bullet-horizontal-gap': '4px',
-    '--swiper-pagination-bottom': '-8px',
+    '--swiper-pagination-bottom': '-7px',
   };
 
   return (
@@ -26,10 +26,10 @@ export default function ElectronicsBrandsList() {
             </svg>
           </div>
         </div>
-      <ul className="flex flex-wrap justify-center items-center"  style={paginationStyle}>
+      <ul className="electronic-brands-pagination flex flex-wrap justify-center items-center"  style={paginationStyle}>
         <Swiper
              modules={[Navigation, Pagination, A11y]}
-             spaceBetween={20}
+             spaceBetween={0}
              slidesPerView={2}
              navigation
              pagination={{ clickable: true,

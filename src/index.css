@@ -24,6 +24,14 @@ body {
   width: auto !important;
 }
 
+.electronic-brands-pagination {
+  padding-bottom: 40px; 
+}
+.electronic-brands-pagination .swiper-pagination {
+ z-index: 1000 !important;
+  position: relative !important;
+}
+
 .swiper-pagination-bullet-active {
   border-radius: 5px !important; 
   width: 25px !important; 
