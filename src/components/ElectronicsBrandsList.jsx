@@ -30,12 +30,23 @@ export default function ElectronicsBrandsList() {
         <Swiper
              modules={[Navigation, Pagination, A11y]}
              spaceBetween={30}
-             slidesPerView={2}
+             slidesPerView={3}
              pagination={{ clickable: true,
              bulletClass: 'swiper-pagination-bullet',
               }}
              onSlideChange={() => console.log('slide change')}
              onSwiper={(swiper) => console.log(swiper)}
+              breakpoints={{
+                 1280: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                0: {
+                    slidesPerView: 1,
+                },
+             }}
         >
         {ELECTRONICS_BRANDS.map(item => (<SwiperSlide key={item.id} >
           <ElectronicsBrandsCard electronicsBrandsObj={item} key={item.id} />
