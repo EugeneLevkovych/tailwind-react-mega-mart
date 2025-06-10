@@ -1,7 +1,7 @@
 export default function ElectronicsBrandsCard({ electronicsBrandsObj }) {
 
   return (
-    <li className="relative w-87 lg:w-97 h-51.5 flex border-none rounded-2xl overflow-hidden" style={{ backgroundColor: `var(--color-${electronicsBrandsObj.backColor})`}}>
+    <div className="relative w-87 lg:w-97 h-51.5 flex border-none rounded-2xl overflow-hidden" style={{ backgroundColor: `var(--color-${electronicsBrandsObj.backColor})`}}>
         <div className="absolute flex justify-center items-center size-56.5 -top-16 -right-10 border rounded-full" style={{ borderColor: `var(--color-${electronicsBrandsObj.decorColor})`}}>
             <div className="size-52 rounded-full" style={{ backgroundColor: `var(--color-${electronicsBrandsObj.decorColor})`}} />
         </div>
@@ -17,5 +17,5 @@ export default function ElectronicsBrandsCard({ electronicsBrandsObj }) {
         <div className="w-52.5 flex justify-center items-center z-10">
           <img src={electronicsBrandsObj.photoName} />
         </div>    
-    </li>
+    </div>
   )}

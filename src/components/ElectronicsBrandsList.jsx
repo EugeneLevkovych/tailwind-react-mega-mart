@@ -11,7 +11,7 @@ import ElectronicsBrandsCard from "./ElectronicsBrandsCard";
 export default function ElectronicsBrandsList() {
       const paginationStyle = {
     '--swiper-pagination-bullet-size': '10px',
-    '--swiper-pagination-bullet-horizontal-gap': '4px'
+    '--swiper-pagination-bullet-horizontal-gap': '4px',
   };
 
   return (
@@ -25,10 +25,11 @@ export default function ElectronicsBrandsList() {
             </svg>
           </div>
         </div>
-      <ul className="electronic-brands-pagination flex flex-wrap justify-center items-center"  style={paginationStyle}>
+
+      <div className="electronic-brands-pagination"  style={paginationStyle}>
         <Swiper
              modules={[Navigation, Pagination, A11y]}
-             spaceBetween={0}
+             spaceBetween={30}
              slidesPerView={2}
              navigation
              pagination={{ clickable: true,
@@ -37,7 +38,8 @@ export default function ElectronicsBrandsList() {
             breakpoints={{
               320: {slidesPerView: 1},
               768: {slidesPerView: 2},
-              1280: {slidesPerView: 3},
+              1280: {slidesPerView: 3,
+              },
             }}
              onSlideChange={() => console.log('slide change')}
              onSwiper={(swiper) => console.log(swiper)}
@@ -46,6 +48,6 @@ export default function ElectronicsBrandsList() {
           <ElectronicsBrandsCard electronicsBrandsObj={item} key={item.id} />
           </SwiperSlide>))}
         </Swiper>
-      </ul>
+      </div>
     </div>
   )}
