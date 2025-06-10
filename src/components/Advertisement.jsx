@@ -15,12 +15,16 @@ export const Advertisement = () => {
     '--swiper-pagination-bullet-inactive-opacity': '1',
     '--swiper-pagination-bullet-size': '10px',
     '--swiper-pagination-bullet-horizontal-gap': '4px',
+    '--swiper-pagination-text-align': 'left',
+    '--swiper-pagination-bottom': '32px',
+    '--swiper-pagination-left': '160px',
+    '--swiper-pagination-right': 'auto',
   };
 
 
 
   return (
-<div style={paginationStyle}>
+<div className='advertisement-pagination ' style={paginationStyle}>
     <Swiper
       modules={[Navigation, Pagination, A11y]}
       spaceBetween={50}

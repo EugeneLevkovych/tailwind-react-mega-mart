@@ -10,11 +10,9 @@ import ElectronicsBrandsCard from "./ElectronicsBrandsCard";
 
 export default function ElectronicsBrandsList() {
       const paginationStyle = {
-    '--swiper-pagination-color': 'var(--color-white)',
-    '--swiper-pagination-bullet-inactive-color': 'var(--color-white)',
-    '--swiper-pagination-bullet-inactive-opacity': '1',
     '--swiper-pagination-bullet-size': '10px',
     '--swiper-pagination-bullet-horizontal-gap': '4px',
+    '--swiper-pagination-bottom': '-8px',
   };
 
   return (
@@ -28,7 +26,7 @@ export default function ElectronicsBrandsList() {
             </svg>
           </div>
         </div>
-      <ul className="flex flex-wrap justify-center items-center">
+      <ul className="flex flex-wrap justify-center items-center"  style={paginationStyle}>
         <Swiper
              modules={[Navigation, Pagination, A11y]}
              spaceBetween={20}

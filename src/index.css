@@ -17,13 +17,12 @@ body {
   font-family: "HK Grotesk", sans-serif;
 }
 
-.swiper-pagination {
+.advertisement-pagination .swiper-pagination {
   text-align: left !important;
-  left: 10rem !important; 
+  left: 160px !important;
   right: auto !important;
-  bottom: 2rem !important; 
+  width: auto !important;
 }
-
 
 .swiper-pagination-bullet-active {
   border-radius: 5px !important; 
