@@ -19,28 +19,6 @@ body {
 
 
 
-.advertisement-pagination .swiper-pagination {
-  left: 160px !important;
-  width: auto !important;
-}
-
-
-.electronic-brands-pagination .swiper-pagination {
-  position: relative !important;
-  margin-top: 30px !important;
-}
-
-.swiper-pagination-bullet-active {
-  border-radius: 5px !important; 
-  width: 25px !important; 
-  transition: width 0.3s; 
-}
-
-.slide-center .swiper-slide {
-  width: 380px !important;
-}
-
-
 @theme {
     --color-main-blue: #008ECC;
     --color-blue1: #f3f9fb;
@@ -128,3 +106,30 @@ body {
     src: local('HK Grotesk Bold'), url('/fonts/HKGrotesk-Bold.woff') format('woff');
     }
 
+
+    .advertisement-pagination .swiper-pagination {
+      left: 160px !important;
+      width: auto !important;
+    }
+
+
+    .electronic-brands-pagination .swiper-pagination {
+      position: relative !important;
+      margin-top: 30px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      border-radius: 5px !important; 
+      width: 25px !important; 
+      transition: width 0.3s; 
+    }
+
+    .electronic-brands-width .swiper-slide {
+      @media screen and (min-width: 767px){
+         width: 348px !important;
+      }
+
+       @media screen and (min-width: 1024px){
+         width: 388px !important;
+      }  
+    }

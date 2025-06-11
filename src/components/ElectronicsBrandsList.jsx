@@ -26,10 +26,10 @@ export default function ElectronicsBrandsList() {
           </div>
         </div>
 
-      <div className="electronic-brands-pagination slide-center"  style={paginationStyle}>
+      <div className="electronic-brands-pagination electronic-brands-width"  style={paginationStyle}>
         <Swiper
              modules={[Navigation, Pagination, A11y]}
-            //  spaceBetween={36}
+              spaceBetween={36}
             //  slidesPerView={3}
              pagination={{ clickable: true,
              bulletClass: 'swiper-pagination-bullet',
@@ -39,15 +39,12 @@ export default function ElectronicsBrandsList() {
               breakpoints={{
                  0: {
                      slidesPerView: 1,
-                     spaceBetween: 20,
                    },
               768: {
                      slidesPerView: 2,
-                     spaceBetween: 30,
                    },
               1280: {
                      slidesPerView: 3,
-                     spaceBetween: 36,
                    },
              }}
         >
