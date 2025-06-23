@@ -4,7 +4,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
 import { ELECTRONICS_BRANDS } from '../data/dataElectronicsBrands';
 import ElectronicsBrandsCard from './ElectronicsBrandsCard';
 
@@ -38,7 +37,6 @@ export default function ElectronicsBrandsList() {
         <Swiper
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={36}
-          //  slidesPerView={3}
           pagination={{
             clickable: true,
             bulletClass: 'swiper-pagination-bullet',
